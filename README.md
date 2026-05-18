@@ -10,6 +10,56 @@ The project combines Financial Analysis, Business Intelligence, Data Analytics, 
 
 ---
 
+# Project Structure
+
+The project is organized into multiple folders and documentation files to maintain a clean, scalable, and professional Business Intelligence workflow.
+
+```text
+IBM-Financial-Dashboard/
+│
+├── dashboard/
+│   └── Contains the final Excel financial dashboard.
+│
+├── data/
+│   │
+│   ├── processed/
+│   │   └── Contains cleaned and transformed datasets prepared
+│   │       for analysis and dashboard development.
+│   │
+│   └── raw/
+│       └── Contains the original raw financial statement data
+│           extracted directly from the Alpha Vantage API.
+│
+├── docs/
+│   │
+│   ├── DAX_Measures.md
+│   │   └── Documentation of all DAX measures and KPI calculations
+│   │       used throughout the financial dashboard.
+│   │
+│   ├── Insights.md
+│   │   └── Executive-level financial insights and strategic analysis
+│   │       generated from the dashboard findings.
+│   │
+│   ├── Methodology.md
+│   │   └── Detailed explanation of the complete project workflow,
+│   │       architecture, modeling approach, and analytical process.
+│   │
+│   └── data_extraction_guide.md
+│       └── Step-by-step explanation of the Python API extraction
+│           process and data collection workflow.
+│
+├── screenshots/
+│   │
+│   ├── sample of data.png
+│   │   └── Preview of the raw financial dataset structure.
+│   │
+│   ├── sample of pivot table.png
+│   │   └── Example of Pivot Table analysis used in the project.
+│   │
+│   └── sample of power pivot.png
+       └── Preview of the Power Pivot measures.
+```
+
 # Project Objectives
 
 The dashboard was designed to answer key business questions such as:
